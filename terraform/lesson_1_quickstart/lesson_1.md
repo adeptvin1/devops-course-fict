@@ -15,3 +15,11 @@ brew install terraform
 3. You need to create [AWS Account](https://aws.amazon.com/free)
 
 4. Create service account in AWS IAM 
+   
+5. Export your credentials at your PC
+
+For macOS
+```brew
+export AWS_ACCESS_KEY_ID=YOUR_ACCESS_KEY_ID
+export AWS_SECRET_ACCESS_KEY=YOUR_ACCESS_KEY
+```
