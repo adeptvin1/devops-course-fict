@@ -21,7 +21,7 @@ resource "aws_key_pair" "serviceaccount" {
 resource "aws_security_group" "sg_nginx_instance" {
   name = "sg_nginx_instance"
   description = "Allow SSH and HTTP"
-  vpc_id = "vpc-0b23ff7bc3a303371"
+  vpc_id = "YOUR_VPC_ID"
 }
 
 resource "aws_security_group_rule" "ssh_in" {
